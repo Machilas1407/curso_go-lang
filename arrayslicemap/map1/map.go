@@ -7,7 +7,7 @@ import (
 func main() {
 	// var aprovados map[int]string // A chave vai ser o int e o valor uma string
 	// mapas devem ser inicializados
-	aprovados := make(map[int]string)
+	aprovados := make(map[int]string) // tipo de map e o valor
 
 	aprovados[12345678978] = "Maria"
 	aprovados[12465131231] = "Pedro"
